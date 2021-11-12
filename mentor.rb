@@ -8,7 +8,7 @@ class Mentor
     end
 end
 class RailsMentor < Mentor
-    attr_accessor :name
+    
     def job()
         #super # 上位クラスの同名メソッドを呼ぶ
         puts "#{self.name}です。私はRubyとRailsでWebアプリケーションを作ります。"
